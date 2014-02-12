@@ -4,7 +4,7 @@ Simple front-end web style/pattern guide for consistent design
 
 ## Official Documentation
 
-Please visit [InfoPotato Official Site](http://potatoguide.com/) for more information and detailed documentation.
+Please visit [PotatoGuide Official Site](http://potatoguide.com/) for more information and detailed documentation.
 
 ## License
 
