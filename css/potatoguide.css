@@ -884,10 +884,6 @@ content: '\2014 \00A0';
 display: none; 
 }
 
-.center {
-text-align:center;
-}
-
 .float_left {
 float:left;
 }
@@ -896,8 +892,24 @@ float:left;
 float:right;
 }
 
+.align_left {
+text-align:left;
+}
+
+.align_right {
+text-align:right;
+}
+
+.align_center {
+text-align:center;
+}
+
 .underline{
 text-decoration:underline;
+}
+
+.line_through{
+text-decoration:line-through;
 }
 
 .external_link {
