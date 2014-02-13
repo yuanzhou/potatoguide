@@ -797,11 +797,11 @@ clear: both;
 
 /* Text Colors */
 .red_tx{
-color:#e74b3c !important;
+color:#e27b67 !important;
 }
 
 .orange_tx{
-color:#F47F05 !important;
+color:#ff8d5b !important;
 }
 
 .yellow_tx{
@@ -809,15 +809,15 @@ color:#fbdca0 !important;
 }
 
 .green_tx{
-color:#64ce83 !important;
+color:#7bcfbb !important;
 }
 
 .grey_tx{
-color:#e0e0e0 !important;
+color:#d6d6d6 !important;
 }
 
 .blue_tx{
-color:#3893C8 !important;
+color:#9BABDA !important;
 }
 
 .purple_tx{
@@ -830,11 +830,11 @@ color:#f0c5c5 !important;
 
 /* Background Colors */
 .red_bg{
-background-color:#e74b3c !important;
+background-color:#e27b67 !important;
 }
 
 .orange_bg{
-background-color:#F47F05 !important;
+background-color:#ff8d5b !important;
 }
 
 .yellow_bg{
@@ -842,15 +842,15 @@ background-color:#fbdca0 !important;
 }
 
 .green_bg{
-background-color:#64ce83 !important;
+background-color:#7bcfbb !important;
 }
 
 .grey_bg{
-background-color:#e0e0e0 !important;
+background-color:#d6d6d6 !important;
 }
 
 .blue_bg{
-background-color:#82ACDE !important;
+background-color:#9BABDA !important;
 }
 
 .purple_bg{
@@ -912,8 +912,12 @@ text-decoration:underline;
 text-decoration:line-through;
 }
 
+.bold{
+font-weight: 700;
+}
+
 .external_link {
-background:url('images/external_link.png') no-repeat center right; 
+background:url('<?php echo STATIC_URI_BASE; ?>images/external_link.png') no-repeat center right; 
 padding-right:12px;
 }
 
@@ -931,12 +935,12 @@ margin:10px 0;
 }
 
 .red_box {  
-background:#e74b3c;  
+background:#e27b67;  
 border:1px solid #ddd;  
 } 
 
 .orange_box  {  
-background:#F47F05; 
+background:#ff8d5b; 
 border:1px solid #ddd; 
 } 
 
@@ -946,17 +950,17 @@ border:1px solid #dda;
 } 
 
 .green_box  {  
-background:#64ce83; 
+background:#7bcfbb; 
 border:1px solid #ccc; 
 } 
 
 .grey_box {  
-background:#e0e0e0;  
+background:#d6d6d6;  
 border:1px solid #ccc;  
 } 
 
 .blue_box {
-background:#82ACDE; 
+background:#9BABDA; 
 border:1px solid #ccc;  
 }
 
@@ -1011,13 +1015,12 @@ padding-left:12px;
 .table {
 width:100%;
 border:1px solid #ccc;
-background:#fefefe;
-margin:20px 0 30px;
+margin:20px 0;
 }
 
 .table th {
 padding:15px 10px; 
-background:#e0e0e0;
+background:#d6d6d6;
 }
 
 .table td {
@@ -1030,8 +1033,8 @@ border-right:1px solid #ccc;
 text-align:left;
 }
 
-.table_hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{
-background-color:#f2f2f2;
+.table_hover>tbody>tr:hover>td{
+background-color:#f8f8f8;
 }
 
 
