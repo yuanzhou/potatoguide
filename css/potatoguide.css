@@ -554,13 +554,14 @@ p {
 margin:5px 0;
 }
 
-li{
-line-height:180%;
+.ul{
+padding-left:20px;
+line-height:160%;
 }
 
-ul, ol { 
-margin-top: 0;
-margin-bottom: 10px;
+.ol{
+padding-left:22px;
+line-height:160%;
 }
 
 address {
@@ -710,10 +711,6 @@ width: 860px;
 width: 940px;
 }
 
-
-/* global classes
--------------------------------------------------------------- */
-
 /* Text Colors */
 .red_tx{
 color:#e27b67 !important;
@@ -779,6 +776,8 @@ background-color:#AE87C4 !important;
 .pink_bg{
 background-color:#f0c5c5 !important;
 }
+
+/* Misc CSS Helper Classes */
 
 .quote {
 font-family: "Georgia", serif;
