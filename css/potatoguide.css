@@ -482,6 +482,7 @@ textarea {
     resize: vertical;
 }
 
+/* Headings */
 h1,
 h2,
 h3,
@@ -530,6 +531,7 @@ h6,
 font-size:12px;  
 }
 
+/* Hyperlinks */
 a:link, a:visited {
 color:#3b5998;
 text-decoration:none;
@@ -541,6 +543,7 @@ color:#f75342;
 text-decoration:underline;
 }
 
+/* selected link */
 /* a:active MUST come after a:hover in the CSS definition in order to be effective! */
 a:active {
 color:#f75342;
@@ -550,10 +553,12 @@ position: relative;
 top: 1px;
 }
 
+/* Body Text */
 p {
 line-height:160%;
 }
 
+/* Unordered Lists and Ordered Lists */
 /* http://www.w3.org/wiki/Styling_lists_and_links */
 .ul, .ol {
 margin-left: 0;
@@ -563,12 +568,6 @@ padding-left: 0;
 .ul li, .ol li {
 margin-left:2em;
 line-height:160%;
-}
-
-address {
-margin-bottom: 20px;
-font-style: normal;
-line-height: 1.428571429;
 }
 
 /* 12 or 16 Column Grid Layout
@@ -842,6 +841,13 @@ border-radius: 4px;
 .abbr { 
 border-bottom:1px dotted #ff0000; 
 cursor:help;
+}
+
+/* For the <address> tag. */
+.addr {
+margin:10px 0 20px;
+font-style: normal;
+line-height: 1.428571429;
 }
 
 .hr {
