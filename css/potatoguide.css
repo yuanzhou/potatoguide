@@ -554,14 +554,14 @@ p {
 line-height:160%;
 }
 
-.ul{
-padding-left:20px;
-line-height:160%;
+/* http://www.w3.org/wiki/Styling_lists_and_links */
+.ul, .ol {
+margin-left: 0;
+padding-left: 0;
 }
 
-.ol{
-padding-left:22px;
-line-height:160%;
+.ul li, .ol li {
+margin-left:20px;
 }
 
 address {
