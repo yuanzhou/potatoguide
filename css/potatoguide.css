@@ -561,7 +561,8 @@ padding-left: 0;
 }
 
 .ul li, .ol li {
-margin-left:25px;
+margin-left:2em;
+line-height:160%;
 }
 
 address {
