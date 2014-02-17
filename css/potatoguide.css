@@ -751,14 +751,6 @@ display: table; /* 2 */
 clear: both;
 }
 
-/*
-* For IE 6/7 only
-* Include this rule to trigger hasLayout and contain floats.
-*/
-.clearfix {
-*zoom: 1;
-}
-
 .inline_code {
 padding: 2px 4px;
 font-size: 90%;
