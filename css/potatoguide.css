@@ -423,9 +423,10 @@ th {
 }
 
 
-/*! PotatoGuide | MIT License | http://potatoguide.com/ */
 
-
+/* ==========================================================================
+   PotatoGuide | MIT License | http://potatoguide.com/
+   ========================================================================== */
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -501,8 +502,7 @@ margin-left:2em;
 line-height:160%;
 }
 
-/* 12 or 16 Column Grid Layout
--------------------------------------------------------------- */
+/* 12 or 16 Column Grid Layout  */
 .inner {
 width:940px;
 margin:0 auto;
@@ -709,7 +709,6 @@ background-color:#f0c5c5 !important;
 }
 
 /* Misc CSS Helper Classes */
-
 .quote {
 font-family: "Georgia", serif;
 font-size: 17.5px;
@@ -800,7 +799,7 @@ text-decoration:line-through;
 }
 
 .external_link {
-background:url('<?php echo STATIC_URI_BASE; ?>images/external_link.png') no-repeat center right; 
+background:url('images/external_link.png') no-repeat center right; 
 padding-right:12px;
 }
 
