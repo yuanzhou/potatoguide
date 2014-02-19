@@ -987,4 +987,13 @@ background-color:#fefbd6;
     h3 {
         page-break-after: avoid;
     }
+    
+    /* PotatoGuide */
+    .print_hide {
+        display: none !important; 
+    }
+
+    .print_show {
+        display: inherit !important; 
+    }
 }
