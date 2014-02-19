@@ -808,58 +808,11 @@ background:url('images/external_link.png') no-repeat center right;
 padding-right:12px;
 }
 
-/* Colored Boxes With Borders & Paddings */
-.red_box, 
-.orange_box, 
-.yellow_box,
-.green_box, 
-.grey_box,
-.blue_box, 
-.purple_box,
-.pink_box { 
+.box { 
 padding:20px; 
 margin:10px 0;
-}
-
-.red_box {  
-background:#e27b67;  
-border:1px solid #ddd;  
-} 
-
-.orange_box  {  
-background:#ff8d5b; 
-border:1px solid #ddd; 
-} 
-
-.yellow_box  {  
-background:#fbdca0; 
-border:1px solid #dda; 
-} 
-
-.green_box  {  
-background:#7bcfbb; 
-border:1px solid #ccc; 
-} 
-
-.grey_box {  
-background:#d6d6d6;  
-border:1px solid #ccc;  
-} 
-
-.blue_box {
-background:#9BABDA; 
-border:1px solid #ccc;  
-}
-
-.purple_box  {  
-background:#AE87C4; 
 border:1px solid #ccc; 
 }
-
-.pink_box  {  
-background:#f0c5c5; 
-border:1px solid #ddd; 
-}  
 
 /* Dot Leaders List */
 .dot_leaders {
