@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+Application-specific Styles
+-------------------------------------------------------------- */
+html {
+overflow-y:scroll;
+font-size: 62.5%; /* 16*62.5%=10px */
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 1.428571429;
+color: #333;
+background-color: #fff;
+}
+
+/* page layout / structure
+-------------------------------------------------------------- */
