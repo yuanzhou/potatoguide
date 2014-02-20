@@ -893,6 +893,7 @@ background-color:#fefbd6;
         text-decoration: underline;
     }
 
+    /* Disabled by PotatoGuide
     a[href]:after {
         content: " (" attr(href) ")";
     }
@@ -900,6 +901,7 @@ background-color:#fefbd6;
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+    */
 
     /*
      * Don't show links for images, or javascript/internal links
