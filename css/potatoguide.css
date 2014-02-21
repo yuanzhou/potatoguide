@@ -875,6 +875,136 @@ background-color:#fefbd6;
 }
 
 
+/* Basic Form Styling */
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+-webkit-appearance: none;
+background-color: #fff;
+font-family: inherit;
+border: 1px solid #ccc;
+color: rgba(0, 0, 0, 0.75);
+display: block;
+font-size: 0.875em;
+height: 2.3125em;
+margin: 0 0 1em 0;
+padding: 0.5em;
+margin: 0 0 0.88889em 0;
+padding: 0.44444em;
+width: 100%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+textarea{
+height:auto; /* Override the height specified above */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+border: 1px solid #ccc;
+outline: 0;
+-moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
+box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
+input[type="text"][disabled],
+input[type="password"][disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="month"][disabled],
+input[type="week"][disabled],
+input[type="email"][disabled],
+input[type="number"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+textarea[disabled] {
+background-color: #ddd; 
+}
+
+/* Add height value for select elements to match text input height */
+select {
+-webkit-appearance: none !important;
+background: url("data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==") no-repeat;
+background-position-x: 97%;
+background-position-y: center;
+padding: 0.5rem;
+font-size: 0.875em;
+width: 100%;
+height: 2.3125em;
+border: 1px solid #ccc;
+/* Remove the border-radius in Safari */
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+
+/* Adjust margin for form elements below */
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+margin: 0 0 1em 0; 
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+display: inline-block;
+margin-left: 0.5em;
+margin-right: 1em;
+margin-bottom: 0;
+vertical-align: baseline; 
+}
+
+/* Normalize file input width */
+input[type="file"] {
+width: 100%; 
+}
+
+/* We add basic fieldset styling */
+fieldset {
+border: solid 1px #ddd;
+padding: 1.25em;
+margin: 1.125em 0; 
+}
+
+fieldset legend {
+font-weight: bold;
+background: white;
+padding: 0 0.1875em;
+margin: 0;
+margin-left: -0.1875em; 
+}
+
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
