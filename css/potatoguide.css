@@ -970,6 +970,13 @@ border: 1px solid #ccc;
 border-radius: 0;
 }
 
+/* Fix the Firefox showing the dropdown arrow on left corner */
+@-moz-document url-prefix() {
+    select {
+    background: #fff; 
+    }
+}
+
 /* Adjust margin for form elements below */
 input[type="file"],
 input[type="checkbox"],
