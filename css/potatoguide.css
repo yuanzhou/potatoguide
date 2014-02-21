@@ -1017,6 +1017,40 @@ margin: 0;
 margin-left: -0.1875em; 
 }
 
+/* Buttons - Form Buttons, Regular Buttons, and Link Buttons */
+
+.form input[type="button"],
+.form input[type="submit"],
+.form input[type="reset"],
+.form button,
+.button {
+text-decoration: none;
+color: #000 !important;
+font-family: inherit;
+border: 1px solid #ccc;
+border-bottom-color: #b3b3b3;
+line-height: 1;
+padding: .7em 1.1em .6em 1.1em;
+font-weight: 500;
+background-color: #f1f1f1;
+background-image: -moz-linear-gradient(top, #fcfcfc, #e0e0e0);
+background-image: -ms-linear-gradient(top, #fcfcfc, #e0e0e0);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fcfcfc), to(#e0e0e0));
+background-image: -webkit-linear-gradient(top, #fcfcfc, #e0e0e0);
+background-image: -o-linear-gradient(top, #fcfcfc, #e0e0e0);
+background-image: linear-gradient(top, #fcfcfc, #e0e0e0);
+text-shadow: 0 1px 0 #fff;
+box-shadow: none;
+}
+
+.form input[type="button"]:hover,
+.form input[type="submit"]:hover,
+.form input[type="reset"]:hover,
+.form button:hover,
+.button:hover {
+color: #000;
+background: #e0e0e0;
+}
 
 /* ==========================================================================
    Print styles.
