@@ -877,20 +877,20 @@ background-color:#fefbd6;
 
 /* Basic Form Styling */
 
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="week"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
-textarea {
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="datetime-local"],
+.form input[type="month"],
+.form input[type="week"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="tel"],
+.form input[type="time"],
+.form input[type="url"],
+.form textarea {
 -webkit-appearance: none;
 background-color: #fff;
 font-family: inherit;
@@ -913,49 +913,49 @@ transition: border linear 0.2s, box-shadow linear 0.2s;
 border-radius: 0;
 }
 
-textarea{
+.form textarea{
 height:auto; /* Override the height specified above */
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="date"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="time"]:focus,
-input[type="url"]:focus,
-textarea:focus {
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="date"]:focus,
+.form input[type="datetime"]:focus,
+.form input[type="datetime-local"]:focus,
+.form input[type="month"]:focus,
+.form input[type="week"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus,
+.form input[type="search"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="time"]:focus,
+.form input[type="url"]:focus,
+.form textarea:focus {
 border: 1px solid #ccc;
 outline: 0;
 -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
 box-shadow: 0 0 8px rgba(82,168,236,.6);
 }
 
-input[type="text"][disabled],
-input[type="password"][disabled],
-input[type="date"][disabled],
-input[type="datetime"][disabled],
-input[type="datetime-local"][disabled],
-input[type="month"][disabled],
-input[type="week"][disabled],
-input[type="email"][disabled],
-input[type="number"][disabled],
-input[type="search"][disabled],
-input[type="tel"][disabled],
-input[type="time"][disabled],
-input[type="url"][disabled],
-textarea[disabled] {
+.form input[type="text"][disabled],
+.form input[type="password"][disabled],
+.form input[type="date"][disabled],
+.form input[type="datetime"][disabled],
+.form input[type="datetime-local"][disabled],
+.form input[type="month"][disabled],
+.form input[type="week"][disabled],
+.form input[type="email"][disabled],
+.form input[type="number"][disabled],
+.form input[type="search"][disabled],
+.form input[type="tel"][disabled],
+.form input[type="time"][disabled],
+.form input[type="url"][disabled],
+.form textarea[disabled] {
 background-color: #ddd; 
 }
 
 /* Add height value for select elements to match text input height */
-select {
+.form select {
 -webkit-appearance: none !important;
 background: #fff url("data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==") no-repeat;
 background-position-x: 97%;
@@ -972,24 +972,24 @@ border-radius: 0;
 
 /* Fix the Firefox showing the dropdown arrow on left corner */
 @-moz-document url-prefix() {
-    select {
+    .form select {
     background: #fff; 
     }
 }
 
 /* Adjust margin for form elements below */
-input[type="file"],
-input[type="checkbox"],
-input[type="radio"],
-select {
+.form input[type="file"],
+.form input[type="checkbox"],
+.form input[type="radio"],
+.form select {
 margin: 0 0 1em 0; 
 /* Remove the border-radius in Safari */
 -webkit-border-radius: 0;
 border-radius: 0;
 }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+.form input[type="checkbox"] + label,
+.form input[type="radio"] + label {
 display: inline-block;
 margin-left: 0.5em;
 margin-right: 1em;
@@ -998,18 +998,18 @@ vertical-align: baseline;
 }
 
 /* Normalize file input width */
-input[type="file"] {
+.form input[type="file"] {
 width: 100%; 
 }
 
 /* We add basic fieldset styling */
-fieldset {
+.form fieldset {
 border: solid 1px #ddd;
 padding: 1.25em;
 margin: 1.125em 0; 
 }
 
-fieldset legend {
+.form fieldset legend {
 font-weight: bold;
 background: white;
 padding: 0 0.1875em;
