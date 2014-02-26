@@ -838,8 +838,10 @@ text-decoration:line-through;
 }
 
 .external_link {
-background:url('images/external_link.png') no-repeat center right; 
-padding-right:12px;
+background-image:url('images/external_link.png') !important; 
+background-repeat:no-repeat !important;
+background-position: center right !important; 
+padding-right:12px !important;
 }
 
 .card { 
