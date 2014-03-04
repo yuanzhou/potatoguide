@@ -499,6 +499,10 @@ position: relative;
 top: 1px;
 }
 
+p {
+line-height:160%;
+}
+
 /* Unordered Lists and Ordered Lists */
 /* http://www.w3.org/wiki/Styling_lists_and_links */
 .ul, .ol {
