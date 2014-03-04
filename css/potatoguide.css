@@ -906,6 +906,7 @@ margin:20px 0;
 }
 
 .table th {
+line-height:160%;
 padding:15px 10px; 
 background:#dce9f9;
 border:1px solid #ccc;
@@ -913,6 +914,7 @@ border:1px solid #ccc;
 }
 
 .table td {
+line-height:160%;
 padding:10px; 
 border:1px solid #ccc;
 }
