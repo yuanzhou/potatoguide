@@ -494,9 +494,6 @@ color:#f75342;
 /* a:active MUST come after a:hover in the CSS definition in order to be effective! */
 a:active {
 color:#f75342;
-/* All links bump themselves down 1px as you click them */
-position: relative;
-top: 1px;
 }
 
 p {
