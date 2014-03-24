@@ -884,8 +884,7 @@ overflow-x:hidden;
 }
 
 .dot_leaders li{
-line-height:1.6em;
-margin-bottom:.8em;
+line-height:1.6;
 padding-left:0 !important;
 margin-left:0 !important;
 }
