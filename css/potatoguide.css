@@ -516,7 +516,12 @@ margin-left: 0;
 padding-left: 0;
 }
 
-.ul li, .ol li {
+.ul li {
+margin-left:1.8em;
+line-height:1.6;
+}
+
+.ol li {
 margin-left:2em;
 line-height:1.6;
 }
