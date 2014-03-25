@@ -1079,6 +1079,7 @@ margin-left: -0.1875em;
 .form input[type="reset"],
 .form button,
 .button {
+display:inline-block;
 text-decoration: none;
 color: #000 !important;
 font-family: inherit;
