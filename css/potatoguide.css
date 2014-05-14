@@ -577,6 +577,7 @@ clear: both;
 .row12 .span12 {
 float: left;
 margin-left: 20px; /*Gutter 20px */
+min-height: 1px; /* In case empty columns collapse horizontally */
 }
 
 /* 12 Column Grid */
@@ -647,6 +648,7 @@ width: 940px;
 .row16 .span16 {
 float: left;
 margin-left: 20px; /*Gutter 20px */
+min-height: 1px; /* In case empty columns collapse horizontally */
 }
 
 /* 16 Column Grid */
