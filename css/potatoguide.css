@@ -1054,6 +1054,12 @@ margin-bottom: 0;
 vertical-align: baseline; 
 }
 
+/*  The :checked pseudo-class selector matches radio and checkbox input types when checked or toggled to an on state */
+.form input[type=checkbox]:checked + label,
+.form input[type="radio"]:checked + label {
+color:#e27b67
+} 
+
 /* Normalize file input width */
 .form input[type="file"] {
 width: 100%; 
